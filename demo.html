@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>移动端分享插件</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1.0,minimun-scale=1.0,maximun-scale=1.0,user-scalable=no">
+    <link rel="stylesheet" type="text/css" href="mshare.css">
+    <style type="text/css">
+      .btn-share{
+        width: 100px;
+        height: 50px;
+        line-height: 50px;
+        text-align: center;
+        font-size: 14px;
+        color: #333;
+        border: 1px solid #ddd;
+        background-color: #eee;
+        border-radius: 4px;
+        margin: 50px auto 0;
+      }
+    </style>
+</head>
+<body>
+    <div class="btn-share">点我分享</div>
+    <div class="share-container"></div>
+    <script src="mshare.js"></script>
+    <script>
+      var option = {
+        url: "http://www.baidu.com",
+        title: "百度",
+        img: "https://ss0.bdstatic.com/5aV1bjqh_Q23odCf/static/superman/img/logo/bd_logo1_31bdc765.png",
+        desc: "百度搜索",
+        from: "百度"
+      }
+      mshare.init(option);
+    </script>
+</body>
+</html>
