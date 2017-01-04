@@ -1,4 +1,4 @@
-# 移动端分享插件
+# 移动端分享插件(https://fedwithmori.github.io/mshare/demo.html)
 
 简单的实现了移动端分享的功能，包含微信朋友、朋友圈、新浪微博、QQ、QQ空间这五大主流平台的分享，，只需要通过mshare.init()方法来进行初始化即可。
 
